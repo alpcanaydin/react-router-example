@@ -33,7 +33,7 @@ class Users extends Component {
 
   handleHomeNavigation(event: any) {
     event.preventDefault();
-    browserHistory.push('/');
+    browserHistory.push('/react-router-example');
   }
 
   handlePageChange(event: any) {
@@ -60,7 +60,7 @@ class Users extends Component {
         <ul>
           {data.map((user: string): Element<*> =>
             <li key={user}>
-              <Link to={`/user/${user}`}>{user}</Link>
+              <Link to={`/react-router-example/user/${user}`}>{user}</Link>
             </li>
           )}
         </ul>
