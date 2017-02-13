@@ -7,6 +7,7 @@ import {
   Route,
   IndexRoute,
   IndexRedirect,
+  Redirect,
   browserHistory
 } from 'react-router';
 
@@ -27,6 +28,7 @@ import './index.css';
 
 const Root = () => (
   <Router history={browserHistory}>
+    <Redirect from="/" to="/react-router-example" />
     <Route path="/react-router-example" component={App}>
       <IndexRoute component={Home} />
 
