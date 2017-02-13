@@ -1,7 +1,8 @@
 {
   "name": "router",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://alpcanaydin.github.io/react-router-example",
   "devDependencies": {
     "eslint": "^3.15.0",
     "eslint-config-airbnb": "^14.1.0",
