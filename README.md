@@ -1,6 +1,6 @@
 # react-router-example
 
-Video ders linki daha sonra eklenecektir.
+Video derse buradan erişebilirsiniz: https://www.youtube.com/watch?v=S-c7VUq3wFw
 
 - - -
 
